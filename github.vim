@@ -1,11 +1,22 @@
 highlight clear
 set t_Co=256
+set background=light
 let g:colors_name="github"
 
 " --------------------------------
 highlight Visual ctermbg=254 ctermfg=none
 highlight MatchParen ctermbg=254
 highlight LineNr ctermfg=248
+highlight StatusLineNC ctermbg=gray ctermfg=255 cterm=bold
+highlight StatusLine ctermbg=blue ctermfg=255 cterm=bold
+highlight VertSplit ctermbg=blue ctermfg=255 cterm=bold
+highlight Pmenu ctermbg=253 ctermfg=0 cterm=none
+highlight PmenuThumb ctermbg=blue 
+highlight PmenuSbar ctermbg=255 
+highlight PmenuSel ctermbg=253 ctermfg=blue
+highlight TabLineFill cterm = none ctermbg=blue
+highlight TabLineSel cterm = bold ctermbg=blue ctermfg=255
+highlight TabLine cterm = bold ctermbg=blue ctermfg=250
 
 " --------------------------------
 highlight Comment ctermbg=none ctermfg=Gray
