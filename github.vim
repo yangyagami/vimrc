@@ -1,9 +1,9 @@
 highlight clear
 set t_Co=256
-set background=light
 let g:colors_name="github"
 
 " --------------------------------
+highlight Normal ctermbg=256 ctermfg=black
 highlight Visual ctermbg=254 ctermfg=none
 highlight MatchParen ctermbg=254
 highlight LineNr ctermfg=248
